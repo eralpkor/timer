@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <title>30 Second Timer</title>
+</head>
+<body style="background-color: #465266;">
+  
+  <div class="container" >
+    <div class="upper_container">
+      <button data-time="1500">25 Minutes</button>
+      <button data-time="300">5 Minutes</button>
+      <button data-time="30">30 Seconds</button>
+
+    </div>
+    <div class="h1_container">
+        <h1 id="countdown" style=" font-family: 'Open Sans Condensed', sans-serif;">0:00</h1>
+    </div>
+    
+    <div class="lower_container">
+      <button onclick="startTimer()" id="startButton">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+    
+  </div>
+
+
+<script type="text/javascript" src="./js/app.js">
+
+
+</script>
+</body>
+</html>
