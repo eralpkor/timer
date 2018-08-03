@@ -9,7 +9,7 @@ var seconds = 30,
 
 // Stop countdown when it reaches to 0. Run countdown and update the DOM
 function counter(seconds) {
-  this.timerId = setInterval(function() {
+  timerId = setInterval(function() {
     if (this.seconds < 0) {
       this.seconds = 0;
     }
