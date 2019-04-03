@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 button {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2em;
@@ -12,17 +16,145 @@ button {
   cursor: pointer;
 
 }
+
 .container {
   color: #ede8e8;
   margin: 100px 300px 300px 300px;
-  background-color:#262d38;
+  background-color: #262d38;
   text-align: center;
   padding: 2%;
   border-radius: 25px;
-  
+
 }
+
 h1 {
   text-shadow: 4px 4px 0 rgba(253, 252, 252, 0.07);
   font-size: 9em;
   letter-spacing: 0.1em;
+}
+
+#manual-timer {
+  height: 40px;
+
+  width: 100px;
+  padding: 10px 32px;
+  margin: 4px 2px;
+  background: #262d38;
+  color: #ede8e8;
+  border: #ef6eae;
+}
+
+:focus {
+  background: #ef6eae;
+  color: #262d38;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    margin: 0;
+    height: 600px;
+  }
+
+  button {
+    font-size: 90%;
+    border: 1px solid #ef6eae;
+    border-radius: 25px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    margin: 0;
+    height: 600px;
+  }
+
+  button {
+    font-size: 90%;
+    border: 1px solid #ef6eae;
+    border-radius: 25px;
+  }
+  #manual-timer {
+    height: 40px;
+  
+    width: 100px;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    background: #262d38;
+    color: #ede8e8;
+    border: #ef6eae;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 7em;
+  }
+
+  .container {
+    margin: 0;
+    height: 800px;
+  }
+
+  button {
+    font-size: 2em;
+    border: 2px solid #ef6eae;
+    border-radius: 25px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 10em;
+  }
+
+  .container {
+    margin: 0;
+    height: 1200px;
+  }
+
+  button {
+    font-size: 3em;
+    border: 2px solid #ef6eae;
+    border-radius: 25px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 13em;
+  }
+
+  .container {
+    margin: 0;
+    height: 1000px;
+  }
+
+  button {
+    font-size: 5em;
+    border: 2px solid #ef6eae;
+    border-radius: 25px;
+  }
+  #manual-timer {
+    height: 100px;
+    width: 100px;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    background: #262d38;
+    color: #ede8e8;
+    border: #ef6eae;
+    font-size: 4em;
+  }
 }
