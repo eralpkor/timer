@@ -21,6 +21,10 @@ button {
   color: #ede8e8;
   margin: 100px 300px 300px 300px;
   background-color: #262d38;
+  magin: 0 auto;
+  max-width: 80%;
+  //margin: 100px 300px 300px 300px;
+  background-color:#262d38;
   text-align: center;
   padding: 2%;
   border-radius: 25px;
